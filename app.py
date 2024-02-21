@@ -122,4 +122,4 @@ answer the below questions
         return jsonify({'response': modified_string})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(port=8080)
